@@ -1,5 +1,5 @@
 # Build both steps required for executing the character count example
-all: results/charscount.out results/charsplot.out
+all: results/charsplot.out results/charscount.out 
 
 #Extract 10 most frequent characters (Step 1)
 results/charscount.out: source/count.py data/shakespeare.in
